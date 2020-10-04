@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+.my{
+    font-family:  Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(rgb(194, 173, 190), rgb(127, 183, 218), rgb(175, 194, 178) );
+    
+}
+.index1{
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(rgb(155, 115, 148), rgb(127, 183, 218), rgb(175, 194, 178) );
+    margin: 0;
+    padding: 0;
+    
+}
+.card{
+    box-shadow: 0 0 0 0;
+    border-radius: 5px; padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-image:linear-gradient(rgb(226, 235, 235), rgb(84, 148, 148)) ;
+}
+.profil{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(46, 46, 46);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+}
+
+.image{
+    width: 150px;
+	height: 150px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fotovilla{
+    width: 40%;
+    height: 40%;
+    margin-left: 10px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.beranda{
+    color: chocolate;
+    font-size: 20px;
+    margin-top: 0;
+}
+.card1{
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px; padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: azure;
+} 
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: aliceblue;
+}
+.jumbotron{
+    font-size: 16px;
+    padding: 20px;
+    background-image: url(beach.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav{
+    background-color: #26acc4;
+    padding: 5px;
+    margin: auto;
+    position: sticky;/* agar navigasi tetap ada walaupun di scroll */
+    top: 0;
+}
+header{
+    display: inline;
+}
+main{
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    color: rgb(27, 59, 50);
+    font-family: 'Quicksand', sans-serif;
+}
+.indexa{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    padding: 15px;
+    color: rgb(48, 3, 26);
+    background-image: url(Bali.jpg);
+    font-weight: bold;
+    font-size: 14px;
+    
+
+}
+.indexb{
+    padding: 20px;
+    color: white;
+    background-image: url(wisata-bali.jpg);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.button {
+    width: 80%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+  
