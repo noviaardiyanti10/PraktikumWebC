@@ -1,0 +1,92 @@
+<!DOCTYPE html lang = "en">
+<html>
+    <head>
+        <title>Registrasi</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="assets/style.css" />
+        
+    </head>
+
+    <body class="regis">
+        <div class="card">
+            <form action="login.html" method="POST">
+                <strong><h4>Registration</h4></strong>
+                <hr align="left" color="rgb(172, 62, 172)" style="width: 250px;"/>
+                <hr align="right" color="rgb(172, 62, 172)" style="width: 250px;"/>
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap</label><br/>
+                   <input type="text" name="nama" id="nama" placeholder="Masukkan nama Anda" required autofocus/>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label><br/>
+                    <input type="email" name="email" id="email" placeholder="Masukkan email Anda" required/>
+                </div>
+                
+                <div class="form-group">
+                    <label for="alamat">Alamat</label><br/>
+                    <input type="text" name="alamat" id="alamat" placeholder="Masukkan alamat Anda" required/>
+                </div>
+
+                <div class="form-group">
+                    <label for="telepon">Telepon</label><br/>
+                    <input type="tel" name="telepon" id="telepon" placeholder="Telepon Anda" required/>
+                </div>
+
+                <div class="form-group">
+                    <label for="tgl">Tanggal Lahir</label><br/>
+                    <input type="date" name="tgl" id="tgl" required/>
+                </div>
+                
+                <div class="form-group">
+                    <label for="agama">Agama</label><br/>
+                    <select name="agama" id="agama" required>
+                        <option value="" disabled selected hidden>Pilih</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="islam">Islam</option>
+                        <option value="budha">Budha</option>
+                        <option value="protestan">Kristen Protestan</option>
+                        <option value="katolik">Katolik</option>
+                        </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="pass">Password</label><br/>
+                    <input type="password" name="pass" id="pass" placeholder="Password" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="konpass">Konfirmasi Password</label><br/>
+                    <input type="password" name="konpass" id="pass" placeholder="Konfirmasi Password" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="jk">Jenis Kelamin</label><br/>
+                    <label class="jk"><input type="radio" name="jk" id="jk" required/>Laki-laki</label>
+                    <label class="jk"><input type="radio" name="jk" id="jk" required/>Perempuan</label>
+                </div>
+                <div class="form-group">
+                    <label for="file">Foto</label><br/>
+                    <input type="file" id="file" name="file" />
+                </div>
+                <div class="form-group">
+                    <label for="minat">Minat Organisasi</label><br/>
+                    <label class="cons"><input type="checkbox"  name="minat" id="minat" required/> BEM PM Universitas</label>
+                    <label class="cons"><input type="checkbox"  name="minat" id="minat" required/> BEM Fakultas</label>
+                    <label class="cons"><input type="checkbox" name="minat" id="minat" required/> Himpunan Mahasiswa Program Studi</label>
+                    <label class="cons"><input type="checkbox" name="minat" id="minat" required/> UKM</label>
+                    <label class="cons"><input type="checkbox"  name="minat" id="minat" required/> Kelompok Studi</label>
+                </div>
+                
+                <div class="form-group">
+                    <label for="ket">Keterangan</label><br/>
+                    <textarea id="ket" name="ket" row="4" cols="40" placeholder="Keterangan.."></textarea>
+                </div>
+            
+                <button type="submit">Registrasi</button><br/>
+                <p>Anda sudah punya akun? <a href="login.html">Login.</a></p>
+            
+            </form>
+    </body>
+</html>
