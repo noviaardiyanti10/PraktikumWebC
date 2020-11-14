@@ -1,6 +1,6 @@
-var nilai1 =document.getElementById("nilai1");
-var nilai2 =document.getElementById("nilai2");
-var hasil = document.getElementById("hasil");
+let nilai1 =document.getElementById("nilai1");
+let nilai2 =document.getElementById("nilai2");
+let hasil = document.getElementById("hasil");
 
 function tambah() {
     hasil.value = Number(nilai1.value) + Number(nilai2.value);
