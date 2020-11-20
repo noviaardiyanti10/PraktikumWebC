@@ -1,0 +1,30 @@
+#B-index{
+    width: 40rem;
+    margin-left: 350px;
+}
+.btn{
+    margin-left: 45%;
+}
+h4{
+    background-color: rgb(75, 175, 175);
+}
+.bgindex{
+
+    background: linear-gradient( linen, rgb(75, 175, 175));  
+}
+#B-index1{
+    width: 40rem;
+    margin-left: 350px;
+    margin-top: 90px;
+    margin-bottom: 88px;
+    
+}
+
+.bgindex1{
+    background: url(img/22133.jpg); 
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
