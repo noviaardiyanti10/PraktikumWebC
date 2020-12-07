@@ -1,0 +1,30 @@
+#tambah-data{
+    margin-left: 10em;
+}
+.tambah-bg{
+    background: linear-gradient(rgb(95, 175, 158),rgb(149, 185, 187)) ;
+}
+#tombol{
+    margin-left: 10em;
+}
+.index-admin{
+    background-color: rgb(167, 218, 218) ;
+}
+.tableFixHead{ 
+    overflow-y: scroll; 
+    height: 100px;
+}
+.tableFixHead thead th{ 
+    position: sticky; top: -1px;
+ }
+
+table  { 
+    border-collapse: collapse; 
+    width: 100%; 
+}
+th, td { 
+    padding: 8px 16px; 
+}
+th{ 
+    background:#eee; 
+}
